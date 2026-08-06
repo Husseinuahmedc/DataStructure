@@ -1,0 +1,462 @@
+@media (max-width: 1024px) {
+  .site-header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .top-nav {
+    justify-content: flex-start;
+    overflow-x: auto;
+    width: 100%;
+    flex-wrap: nowrap;
+    padding-bottom: 0.25rem;
+    scrollbar-width: thin;
+    border-top: 1px solid var(--line);
+    margin-top: 0.1rem;
+    padding-top: 0.45rem;
+  }
+
+  .top-nav a {
+    white-space: nowrap;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-top: 2rem;
+  }
+
+  .progress-panel {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .tab-list {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 0.2rem;
+  }
+
+  .tab-btn {
+    white-space: nowrap;
+  }
+
+  .sorting-controls {
+    grid-template-columns: 1fr 1.35fr;
+  }
+
+  .sorting-control-buttons .btn {
+    min-height: 44px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1024px) {
+  .lecture-dashboard-grid,
+  .mini-grid,
+  .code-grid,
+  .practice-grid,
+  .quiz-grid,
+  .cheat-grid,
+  .sorting-overview-grid,
+  .sorting-cheat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .back-to-top {
+    bottom: 1rem;
+    right: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .section {
+    width: min(100% - 1rem, 1060px);
+    padding: 2.35rem 0;
+  }
+}
+
+  .site-header {
+    padding: 0.75rem;
+  }
+
+  .brand {
+    font-size: 1rem;
+  }
+
+  .top-nav a,
+  .btn,
+  .tab-btn,
+  .choice {
+    min-height: 44px;
+    padding: 0.64rem 0.82rem;
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    gap: 0.75rem;
+  }
+
+  .hero > div:first-child {
+    padding: 1.25rem;
+  }
+
+  h1 {
+    font-size: clamp(2.45rem, 15vw, 4rem);
+  }
+
+  .hero-meta li {
+    width: auto;
+    text-align: left;
+  }
+
+  .progress-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .section-jump-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .jump-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .jump-row .btn {
+    width: 100%;
+  }
+
+  .chunk-card summary {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .control-row {
+    flex-direction: column;
+  }
+
+  .control-row input,
+  .control-row .btn {
+    width: 100%;
+  }
+
+  .mini-grid,
+  .code-grid,
+  .practice-grid,
+  .quiz-grid,
+  .cheat-grid,
+  .lecture-dashboard-grid,
+  .algorithm-grid,
+  .sorting-overview-grid,
+  .sorting-cheat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lecture-card {
+    min-height: auto;
+  }
+
+  .recognition-row {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .big-o-viz {
+    padding: 0.75rem;
+  }
+
+  .op-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .op-row span,
+  .op-grid span,
+  .halving-row span,
+  .branch-tree span {
+    min-width: 2.2rem;
+    min-height: 2.2rem;
+    font-size: 0.82rem;
+  }
+
+  .viz {
+    min-height: 320px;
+    overflow-x: auto;
+  }
+
+  .viz svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .array-cell {
+    min-width: 52px;
+    min-height: 52px;
+  }
+
+  code {
+    font-size: 0.82rem;
+  }
+
+  .sort-trace-card,
+  .sort-example-block {
+    padding: 0.85rem;
+  }
+
+  .trace-table {
+    min-width: 620px;
+  }
+
+  .merge-level {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .sort-cell {
+    min-width: 2.05rem;
+    min-height: 1.95rem;
+    font-size: 0.78rem;
+  }
+
+  .sorting-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .sorting-controls label,
+  .sorting-control-buttons {
+    min-width: 0;
+  }
+
+  .sorting-control-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sorting-control-buttons .btn {
+    min-width: 0;
+  }
+
+  .sorting-control-buttons .btn:first-child {
+    grid-column: 1 / -1;
+  }
+
+  .sorting-trace-status {
+    align-items: flex-start;
+  }
+
+  .sorting-svg-wrap {
+    min-height: 240px;
+  }
+
+  .sorting-trace-table {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .sorting-trace-table table {
+    min-width: 660px;
+  }
+
+  .sort-card-facts {
+    gap: 0.5rem;
+  }
+
+  .tab-list,
+  .array-row,
+  .trace-table-wrap,
+  .sorting-trace-table {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 520px) {
+  .sorting-visualizer-panel {
+    padding: 0.85rem;
+  }
+
+  .sorting-legend {
+    width: 100%;
+  }
+
+  .trace-pill {
+    flex: 1 1 calc(50% - 0.45rem);
+    justify-content: center;
+  }
+
+  .sorting-step-explanation {
+    padding: 0.82rem 0.85rem;
+  }
+
+  .sorting-control-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .sorting-control-buttons .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-brand {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    line-height: 1.55;
+  }
+
+  .site-header {
+    gap: 0.65rem;
+    padding: 0.6rem;
+  }
+
+  .top-nav {
+    gap: 0.35rem;
+  }
+
+  .top-nav a,
+  .btn,
+  .tab-btn,
+  .choice {
+    min-height: 44px;
+  }
+
+  .section {
+    width: min(100% - 0.8rem, 1180px);
+    padding: 1.85rem 0;
+  }
+
+  .compact-section {
+    padding-top: 0;
+  }
+
+  .section-heading {
+    margin-bottom: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.42rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .lead {
+    font-size: 0.98rem;
+  }
+
+  .section-jump-grid,
+  .sorting-overview-grid,
+  .sorting-cheat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .jump-row,
+  .sorting-control-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-meta li {
+    width: 100%;
+  }
+
+  .progress-panel {
+    gap: 0.55rem;
+  }
+
+  .chunk-body,
+  .code-card,
+  .practice-card,
+  .quiz-card,
+  .cheat-card,
+  .algorithm-card,
+  .method-card,
+  .image-card,
+  .lecture-card,
+  .sorting-overview-card {
+    padding: 0.9rem;
+  }
+
+  .lab-shell {
+    padding: 0.65rem;
+  }
+
+  .trace-table {
+    min-width: 520px;
+  }
+
+  .sorting-trace-table table {
+    min-width: 520px;
+  }
+
+  .sorting-svg-wrap {
+    min-height: 220px;
+  }
+}
+
+@media (max-width: 420px) {
+  .section {
+    width: min(100% - 0.75rem, 1180px);
+  }
+
+  .hero-meta {
+    gap: 0.45rem;
+  }
+
+  .hero-meta li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .jump-row .btn {
+    flex: 1 1 100%;
+  }
+
+  .viz {
+    min-height: 280px;
+  }
+
+  .trace-pill {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .section {
+    width: min(100% - 0.6rem, 1180px);
+  }
+
+  .hero > div:first-child,
+  .sorting-visualizer-panel {
+    padding: 0.75rem;
+  }
+
+  .top-nav a,
+  .btn,
+  .tab-btn,
+  .choice {
+    font-size: 0.84rem;
+    padding-inline: 0.68rem;
+  }
+
+  .sort-cell {
+    min-width: 1.9rem;
+  }
+}

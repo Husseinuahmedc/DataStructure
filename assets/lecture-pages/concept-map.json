@@ -1,0 +1,5005 @@
+[
+  {
+    "id": "adt-stl",
+    "topic": "ADT + STL",
+    "subcategory": "Course foundation",
+    "title": "ADT + STL",
+    "arTitle": "ADT و STL",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect1",
+        "page": 1
+      },
+      {
+        "pdf": "lect1",
+        "page": 2
+      },
+      {
+        "pdf": "lect1",
+        "page": 3
+      },
+      {
+        "pdf": "lect1",
+        "page": 4
+      },
+      {
+        "pdf": "lect1",
+        "page": 5
+      },
+      {
+        "pdf": "lect1",
+        "page": 6
+      }
+    ],
+    "explanation": "ADT separates what operations are allowed from how the data is represented. STL gives reusable containers and algorithms so the exam can focus on behavior and tracing.",
+    "arabic": "الـ ADT يصف العمليات من الخارج بدون تفاصيل الخزن الداخلي. STL يوفر containers و algorithms جاهزة، لذلك أسئلة الفاينل تركز على السلوك والتتبع.",
+    "traps": [
+      "Do not describe ADT by one implementation only.",
+      "Know that container choice changes supported operations."
+    ],
+    "code": "vector<int> v;\nlist<int> L;\nqueue<int> q;\nstack<int> s;",
+    "examQuestion": "Why is a stack considered an ADT even if it is implemented by an array or linked list?",
+    "quickAnswer": "Because the required behavior is push/pop/top in LIFO order; the internal representation can change.",
+    "deepExplanation": "The ADT contract is the public behavior. The implementation can be array-based, linked, or STL-backed as long as the same operations produce the same logical result.",
+    "overlays": [
+      {
+        "label": "ADT = behavior, not storage",
+        "x": 11,
+        "y": 18,
+        "w": 50,
+        "h": 16
+      }
+    ],
+    "visualIds": [
+      "lect1-p001",
+      "lect1-p002",
+      "lect1-p003",
+      "lect1-p004",
+      "lect1-p005",
+      "lect1-p006"
+    ],
+    "sequence": [
+      {
+        "id": "lect1-p001",
+        "title": "ADT + STL: A specific functionality or operations such as adding, retrieving, and removing elements.",
+        "page": 1,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p001.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p001.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=1",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=1",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=2",
+        "overlays": [
+          {
+            "label": "ADT = behavior, not storage",
+            "x": 11,
+            "y": 18,
+            "w": 50,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "lect1-p002",
+        "title": "ADT + STL: 3/23/2026 2",
+        "page": 2,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p002.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p002.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=2",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=1",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=3",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p003",
+        "title": "ADT + STL: 3/23/2026 3",
+        "page": 3,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p003.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p003.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=3",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=2",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=4",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p004",
+        "title": "ADT + STL: Types of data structures",
+        "page": 4,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p004.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p004.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=4",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=3",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=5",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p005",
+        "title": "ADT + STL: 3/23/2026 5",
+        "page": 5,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p005.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p005.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=5",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=4",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=6",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p006",
+        "title": "ADT + STL: 3/23/2026 6",
+        "page": 6,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p006.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p006.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=6",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=5",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=7",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "iterators",
+    "topic": "Iterators",
+    "subcategory": "STL traversal",
+    "title": "Iterators",
+    "arTitle": "Iterators",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect1",
+        "page": 7
+      },
+      {
+        "pdf": "lect1",
+        "page": 8
+      },
+      {
+        "pdf": "lect1",
+        "page": 9
+      }
+    ],
+    "explanation": "An iterator is a pointer-like object for walking through an STL container. begin() points to the first item and end() is the past-the-end sentinel.",
+    "arabic": "الـ iterator يشبه المؤشر ويمشي داخل الـ container. begin يشير لأول عنصر، و end ليس عنصر بل علامة بعد آخر عنصر.",
+    "traps": [
+      "Do not dereference end().",
+      "std::list iterators move with ++/--, not array indexing."
+    ],
+    "code": "for (auto it = L.begin(); it != L.end(); ++it)\n  cout << *it << \" \";",
+    "examQuestion": "Why does the lecture use auto for iterators?",
+    "quickAnswer": "Iterator type names are long, so auto keeps the traversal readable.",
+    "deepExplanation": "The compiler knows the exact iterator type from L.begin(). auto preserves type correctness while avoiding complicated type spelling.",
+    "overlays": [
+      {
+        "label": "end() is a sentinel",
+        "x": 58,
+        "y": 35,
+        "w": 30,
+        "h": 13
+      }
+    ],
+    "visualIds": [
+      "lect1-p007",
+      "lect1-p008",
+      "lect1-p009"
+    ],
+    "sequence": [
+      {
+        "id": "lect1-p007",
+        "title": "Iterators: type name: auto it = a.begin(); )",
+        "page": 7,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p007.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p007.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=7",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=6",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=8",
+        "overlays": [
+          {
+            "label": "end() is a sentinel",
+            "x": 58,
+            "y": 35,
+            "w": 30,
+            "h": 13
+          }
+        ]
+      },
+      {
+        "id": "lect1-p008",
+        "title": "Iterators: 3/23/2026 8",
+        "page": 8,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p008.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p008.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=8",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=7",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=9",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p009",
+        "title": "Iterators: 3/23/2026 9",
+        "page": 9,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p009.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p009.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=9",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=8",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=10",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "stl-algorithms",
+    "topic": "STL algorithms",
+    "subcategory": "Reusable operations",
+    "title": "STL Algorithms",
+    "arTitle": "خوارزميات STL",
+    "examImportance": "medium",
+    "pages": [
+      {
+        "pdf": "lect1",
+        "page": 7
+      },
+      {
+        "pdf": "lect1",
+        "page": 8
+      },
+      {
+        "pdf": "lect1",
+        "page": 9
+      },
+      {
+        "pdf": "lect5",
+        "page": 57
+      },
+      {
+        "pdf": "lect5",
+        "page": 58
+      },
+      {
+        "pdf": "lect5",
+        "page": 59
+      },
+      {
+        "pdf": "lect5",
+        "page": 60
+      },
+      {
+        "pdf": "lect5",
+        "page": 61
+      },
+      {
+        "pdf": "lect5",
+        "page": 62
+      }
+    ],
+    "explanation": "STL algorithms operate on ranges through iterators. The sorting pages also reinforce the reason sorted data makes searching faster.",
+    "arabic": "خوارزميات STL تشتغل على ranges بواسطة iterators. صفحات الترتيب توضح أيضاً لماذا البيانات المرتبة تجعل البحث أسرع.",
+    "traps": [
+      "Some algorithms need random-access iterators; std::list does not provide them.",
+      "Sorting changes the condition that binary search depends on."
+    ],
+    "code": "sort(v.begin(), v.end());\nauto pos = find(v.begin(), v.end(), target);",
+    "examQuestion": "Why can binary search eliminate half only after sorting?",
+    "quickAnswer": "Because the ordering tells us which half cannot contain the target.",
+    "deepExplanation": "Without sorted order, comparing with the middle element gives no reliable information about the values on either side.",
+    "overlays": [
+      {
+        "label": "range = [begin, end)",
+        "x": 14,
+        "y": 24,
+        "w": 44,
+        "h": 12
+      }
+    ],
+    "visualIds": [
+      "lect1-p007",
+      "lect1-p008",
+      "lect1-p009",
+      "lect5-p057",
+      "lect5-p058",
+      "lect5-p059",
+      "lect5-p060",
+      "lect5-p061",
+      "lect5-p062"
+    ],
+    "sequence": [
+      {
+        "id": "lect1-p007",
+        "title": "Iterators: type name: auto it = a.begin(); )",
+        "page": 7,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p007.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p007.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=7",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=6",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=8",
+        "overlays": [
+          {
+            "label": "range = [begin, end)",
+            "x": 14,
+            "y": 24,
+            "w": 44,
+            "h": 12
+          }
+        ]
+      },
+      {
+        "id": "lect1-p008",
+        "title": "Iterators: 3/23/2026 8",
+        "page": 8,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p008.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p008.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=8",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=7",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=9",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p009",
+        "title": "Iterators: 3/23/2026 9",
+        "page": 9,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p009.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p009.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=9",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=8",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=10",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p057",
+        "title": "STL algorithms: Lecture 6: Sorting Algorithms",
+        "page": 57,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p057.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p057.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=57",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=56",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=58",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p058",
+        "title": "STL algorithms: Selection Sort",
+        "page": 58,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p058.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p058.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=58",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=57",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=59",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p059",
+        "title": "STL algorithms: • In a series of n - 1 iterations, the successive elements list[index] and list[index + 1]",
+        "page": 59,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p059.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p059.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=59",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=58",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=60",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p060",
+        "title": "STL algorithms: Bubble Sort Example 1",
+        "page": 60,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p060.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p060.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=60",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=59",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=61",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p061",
+        "title": "STL algorithms: • The merge sort algorithm uses the divide-and-conquer technique to sort a list.",
+        "page": 61,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p061.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p061.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=61",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=60",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=62",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p062",
+        "title": "STL algorithms: Merge Sort Example 2",
+        "page": 62,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p062.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p062.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=62",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=61",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=63",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "linked-list-basics",
+    "topic": "Linked list basics",
+    "subcategory": "Node representation",
+    "title": "Linked List Basics",
+    "arTitle": "أساسيات Linked List",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect1",
+        "page": 10
+      },
+      {
+        "pdf": "lect1",
+        "page": 11
+      }
+    ],
+    "explanation": "A linked list is a chain of nodes. Each node stores data/info plus a link/next pointer to the next node.",
+    "arabic": "الـ linked list سلسلة عقد. كل عقدة تحتوي data/info ومؤشر link/next للعقدة التالية.",
+    "traps": [
+      "The nodes are not contiguous like an array.",
+      "The last node link is NULL in a normal singly linked list."
+    ],
+    "code": "struct node {\n  int info;\n  node *link;\n};",
+    "examQuestion": "What two fields must a singly linked-list node contain?",
+    "quickAnswer": "An information field and a link/next pointer.",
+    "deepExplanation": "The information field stores the value. The link field stores the address of the next node, which is how traversal proceeds.",
+    "overlays": [
+      {
+        "label": "info",
+        "x": 30,
+        "y": 37,
+        "w": 14,
+        "h": 10
+      },
+      {
+        "label": "link / next",
+        "x": 45,
+        "y": 37,
+        "w": 21,
+        "h": 10
+      }
+    ],
+    "visualIds": [
+      "lect1-p010",
+      "lect1-p011"
+    ],
+    "sequence": [
+      {
+        "id": "lect1-p010",
+        "title": "Linked list basics: Data structure and algorithms Lecture 2",
+        "page": 10,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p010.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p010.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=10",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=9",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=11",
+        "overlays": [
+          {
+            "label": "info",
+            "x": 30,
+            "y": 37,
+            "w": 14,
+            "h": 10
+          },
+          {
+            "label": "link / next",
+            "x": 45,
+            "y": 37,
+            "w": 21,
+            "h": 10
+          }
+        ]
+      },
+      {
+        "id": "lect1-p011",
+        "title": "Linked list basics: Data structure and algorithms Lecture 2",
+        "page": 11,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p011.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p011.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=11",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=10",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=12",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "linked-list-traversal",
+    "topic": "Linked list traversal",
+    "subcategory": "Pointer movement",
+    "title": "Linked List Traversal",
+    "arTitle": "تتبع المرور في Linked List",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect1",
+        "page": 12
+      },
+      {
+        "pdf": "lect1",
+        "page": 13
+      },
+      {
+        "pdf": "lect1",
+        "page": 14
+      }
+    ],
+    "explanation": "Traversal starts from head with a temporary pointer current. Moving current follows links without losing the first node.",
+    "arabic": "المرور يبدأ من head بواسطة مؤشر مؤقت current. تحريك current يتبع الروابط بدون ضياع أول عقدة.",
+    "traps": [
+      "Moving head during traversal loses the list start.",
+      "current->link->info means move one link then read info."
+    ],
+    "code": "node *current = head;\nwhile (current != NULL) {\n  cout << current->info << \" \";\n  current = current->link;\n}",
+    "examQuestion": "Why should current be used instead of head while traversing?",
+    "quickAnswer": "head must keep pointing to the first node.",
+    "deepExplanation": "If head is overwritten, the program may no longer have any pointer to the beginning of the list.",
+    "overlays": [
+      {
+        "label": "temporary pointer",
+        "x": 18,
+        "y": 42,
+        "w": 25,
+        "h": 12
+      }
+    ],
+    "visualIds": [
+      "lect1-p012",
+      "lect1-p013",
+      "lect1-p014"
+    ],
+    "sequence": [
+      {
+        "id": "lect1-p012",
+        "title": "Linked list traversal: Data structure and algorithms Lecture 2",
+        "page": 12,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p012.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p012.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=12",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=11",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=13",
+        "overlays": [
+          {
+            "label": "temporary pointer",
+            "x": 18,
+            "y": 42,
+            "w": 25,
+            "h": 12
+          }
+        ]
+      },
+      {
+        "id": "lect1-p013",
+        "title": "Linked list traversal: Data structure and algorithms Lecture 2",
+        "page": 13,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p013.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p013.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=13",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=12",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=14",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p014",
+        "title": "Linked list traversal: Data structure and algorithms Lecture 2",
+        "page": 14,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p014.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p014.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=14",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=13",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=15",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "insert-operation",
+    "topic": "Insert operation",
+    "subcategory": "Pointer transition",
+    "title": "Linked List Insert",
+    "arTitle": "إدخال عقدة في Linked List",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect1",
+        "page": 15
+      },
+      {
+        "pdf": "lect1",
+        "page": 16
+      }
+    ],
+    "explanation": "Insertion after p must preserve the old next pointer first: newNode->link = p->link; then p->link = newNode.",
+    "arabic": "الإدخال بعد p لازم يحفظ الرابط القديم أولاً: newNode->link = p->link ثم p->link = newNode.",
+    "traps": [
+      "Reversing the order can make newNode point to itself.",
+      "The remainder of the list can become unreachable."
+    ],
+    "code": "nodeType *newNode = new nodeType;\nnewNode->info = 50;\nnewNode->link = p->link;\np->link = newNode;",
+    "examQuestion": "What happens if p->link = newNode is executed before newNode->link = p->link?",
+    "quickAnswer": "newNode can point back to itself and the rest of the list is lost.",
+    "deepExplanation": "After p->link changes, p no longer stores the old next node. The second statement copies the wrong address, so the old tail chain is disconnected.",
+    "overlays": [
+      {
+        "label": "1 save old next",
+        "x": 24,
+        "y": 43,
+        "w": 34,
+        "h": 14
+      },
+      {
+        "label": "2 connect p",
+        "x": 42,
+        "y": 63,
+        "w": 30,
+        "h": 12
+      },
+      {
+        "label": "danger: wrong order loses tail",
+        "x": 10,
+        "y": 75,
+        "w": 52,
+        "h": 14
+      }
+    ],
+    "trace": "linked-list-insert",
+    "visualIds": [
+      "lect1-p015",
+      "lect1-p016"
+    ],
+    "sequence": [
+      {
+        "id": "lect1-p015",
+        "title": "Insert operation: Data structure and algorithms Lecture 2",
+        "page": 15,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p015.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p015.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=15",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=14",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=16",
+        "overlays": [
+          {
+            "label": "1 save old next",
+            "x": 24,
+            "y": 43,
+            "w": 34,
+            "h": 14
+          },
+          {
+            "label": "2 connect p",
+            "x": 42,
+            "y": 63,
+            "w": 30,
+            "h": 12
+          },
+          {
+            "label": "danger: wrong order loses tail",
+            "x": 10,
+            "y": 75,
+            "w": 52,
+            "h": 14
+          }
+        ]
+      },
+      {
+        "id": "lect1-p016",
+        "title": "Insert operation: Data structure and algorithms Lecture 2",
+        "page": 16,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p016.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p016.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=16",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=15",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=17",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "delete-operation",
+    "topic": "Delete operation",
+    "subcategory": "Bypass pointer",
+    "title": "Linked List Delete",
+    "arTitle": "حذف عقدة في Linked List",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect1",
+        "page": 17
+      }
+    ],
+    "explanation": "Deletion keeps a pointer to the removed node, bypasses it from the previous node, then deallocates it.",
+    "arabic": "الحذف يحفظ مؤشر للعقدة المحذوفة، ثم يجعل العقدة السابقة تتجاوزها، ثم يحرر الذاكرة.",
+    "traps": [
+      "Do not delete q before reading q->link.",
+      "Bypassing removes the node from the chain; it does not shift all nodes."
+    ],
+    "code": "q = p->link;\np->link = q->link;\ndelete q;",
+    "examQuestion": "Why do we assign q = p->link before changing p->link?",
+    "quickAnswer": "q remembers the node that must be released.",
+    "deepExplanation": "After bypassing, the previous node points around q. Without q, the deleted node could leak or become impossible to free.",
+    "overlays": [
+      {
+        "label": "q = node to delete",
+        "x": 41,
+        "y": 37,
+        "w": 24,
+        "h": 13
+      },
+      {
+        "label": "bypass q",
+        "x": 18,
+        "y": 70,
+        "w": 40,
+        "h": 12
+      }
+    ],
+    "trace": "linked-list-delete",
+    "visualIds": [
+      "lect1-p017"
+    ],
+    "sequence": [
+      {
+        "id": "lect1-p017",
+        "title": "Delete operation: Data structure and algorithms Lecture 2",
+        "page": 17,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p017.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p017.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=17",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=16",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=18",
+        "overlays": [
+          {
+            "label": "q = node to delete",
+            "x": 41,
+            "y": 37,
+            "w": 24,
+            "h": 13
+          },
+          {
+            "label": "bypass q",
+            "x": 18,
+            "y": 70,
+            "w": 40,
+            "h": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "circular-linked-list",
+    "topic": "Circular linked list",
+    "subcategory": "Tail-to-head loop",
+    "title": "Circular Linked List",
+    "arTitle": "Circular Linked List",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect1",
+        "page": 23
+      },
+      {
+        "pdf": "lect1",
+        "page": 24
+      },
+      {
+        "pdf": "lect1",
+        "page": 25
+      },
+      {
+        "pdf": "lect1",
+        "page": 26
+      }
+    ],
+    "explanation": "A circular linked list changes the last node link so it points back to the first node instead of NULL.",
+    "arabic": "القائمة الدائرية تجعل رابط آخر عقدة يرجع إلى أول عقدة بدل NULL.",
+    "traps": [
+      "A normal NULL stop condition can become an infinite loop.",
+      "Search must stop after returning to the head."
+    ],
+    "code": "auto it = clist.begin();\nfor (int i = 0; i < iterations * clist.size(); ++i) {\n  cout << *it << \" -> \";\n  if (++it == clist.end()) it = clist.begin();\n}",
+    "examQuestion": "Why does circular display need a count or return-to-head stop rule?",
+    "quickAnswer": "Because the list does not end with NULL.",
+    "deepExplanation": "The tail links back to head, so traversal can continue forever unless the algorithm detects one full cycle.",
+    "overlays": [
+      {
+        "label": "tail points to head",
+        "x": 17,
+        "y": 31,
+        "w": 45,
+        "h": 16
+      }
+    ],
+    "visualIds": [
+      "lect1-p023",
+      "lect1-p024",
+      "lect1-p025",
+      "lect1-p026"
+    ],
+    "sequence": [
+      {
+        "id": "lect1-p023",
+        "title": "Circular linked list: Data structure and algorithms Lecture 2",
+        "page": 23,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p023.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p023.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=23",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=22",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=24",
+        "overlays": [
+          {
+            "label": "tail points to head",
+            "x": 17,
+            "y": 31,
+            "w": 45,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "lect1-p024",
+        "title": "Circular linked list: Data structure and algorithms Lecture 2",
+        "page": 24,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p024.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p024.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=24",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=23",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=25",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p025",
+        "title": "Circular linked list: Data structure and algorithms Lecture 2",
+        "page": 25,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p025.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p025.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=25",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=24",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=26",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p026",
+        "title": "Circular linked list: Data structure and algorithms Lecture 2",
+        "page": 26,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p026.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p026.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=26",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=25",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=27",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "std-list",
+    "topic": "std::list",
+    "subcategory": "Doubly linked STL container",
+    "title": "std::list",
+    "arTitle": "std::list",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect1",
+        "page": 27
+      },
+      {
+        "pdf": "lect1",
+        "page": 28
+      },
+      {
+        "pdf": "lect1",
+        "page": 29
+      },
+      {
+        "pdf": "lect1",
+        "page": 30
+      },
+      {
+        "pdf": "lect1",
+        "page": 35
+      },
+      {
+        "pdf": "lect1",
+        "page": 36
+      },
+      {
+        "pdf": "lect1",
+        "page": 37
+      },
+      {
+        "pdf": "lect1",
+        "page": 38
+      },
+      {
+        "pdf": "lect1",
+        "page": 39
+      },
+      {
+        "pdf": "lect1",
+        "page": 40
+      },
+      {
+        "pdf": "lect1",
+        "page": 41
+      },
+      {
+        "pdf": "lect1",
+        "page": 42
+      },
+      {
+        "pdf": "lect1",
+        "page": 43
+      },
+      {
+        "pdf": "lect1",
+        "page": 44
+      }
+    ],
+    "explanation": "std::list is an STL abstraction of a doubly linked list. It supports fast insert/erase at known positions through iterators.",
+    "arabic": "std::list تمثل doubly linked list جاهزة. الإدخال والحذف يكونان سريعَين عند وجود iterator للمكان.",
+    "traps": [
+      "No operator[] random access.",
+      "erase invalidates the erased iterator."
+    ],
+    "code": "list<int> L;\nL.push_front(10);\nL.push_back(40);\nauto it = L.begin();\nadvance(it, 2);\nL.insert(it, 22);",
+    "examQuestion": "Why does std::list not support L[i] like vector?",
+    "quickAnswer": "Because nodes are linked by pointers and are not stored contiguously.",
+    "deepExplanation": "To reach an arbitrary node, the list must follow links from a known position. That is why iterator movement is central.",
+    "overlays": [
+      {
+        "label": "iterator position matters",
+        "x": 38,
+        "y": 48,
+        "w": 33,
+        "h": 13
+      }
+    ],
+    "visualIds": [
+      "lect1-p027",
+      "lect1-p028",
+      "lect1-p029",
+      "lect1-p030",
+      "lect1-p035",
+      "lect1-p036",
+      "lect1-p037",
+      "lect1-p038",
+      "lect1-p039",
+      "lect1-p040",
+      "lect1-p041",
+      "lect1-p042",
+      "lect1-p043",
+      "lect1-p044"
+    ],
+    "sequence": [
+      {
+        "id": "lect1-p027",
+        "title": "std::list: Data structure and algorithms Lecture 2",
+        "page": 27,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p027.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p027.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=27",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=26",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=28",
+        "overlays": [
+          {
+            "label": "iterator position matters",
+            "x": 38,
+            "y": 48,
+            "w": 33,
+            "h": 13
+          }
+        ]
+      },
+      {
+        "id": "lect1-p028",
+        "title": "std::list: Data structure and algorithms Lecture 2",
+        "page": 28,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p028.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p028.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=28",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=27",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=29",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p029",
+        "title": "std::list: Data structure and algorithms Lecture 2",
+        "page": 29,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p029.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p029.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=29",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=28",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=30",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p030",
+        "title": "std::list: Data structure and algorithms Lecture 2",
+        "page": 30,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p030.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p030.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=30",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=29",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=31",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p035",
+        "title": "std::list: STL Containers and Operations: Circular Linked List & Doubly Linked List in C++",
+        "page": 35,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p035.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p035.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=35",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=34",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=36",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p036",
+        "title": "std::list: Comparison Table: Circular vs. Doubly Linked List in STL",
+        "page": 36,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p036.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p036.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=36",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=35",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=37",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p037",
+        "title": "std::list: Circular Linked List Implementation",
+        "page": 37,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p037.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p037.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=37",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=36",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=38",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p038",
+        "title": "std::list: cout << *it << \" -> \"",
+        "page": 38,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p038.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p038.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=38",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=37",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=39",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p039",
+        "title": "std::list: system(\"pause\")",
+        "page": 39,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p039.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p039.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=39",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=38",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=40",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p040",
+        "title": "std::list: Doubly Linked List Implementation",
+        "page": 40,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p040.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p040.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=40",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=39",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=41",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p041",
+        "title": "std::list: void DoublyList::insertEnd(int value)",
+        "page": 41,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p041.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p041.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=41",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=40",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=42",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p042",
+        "title": "std::list: if (*it == key)",
+        "page": 42,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p042.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p042.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=42",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=41",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=43",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p043",
+        "title": "std::list: #include \"DoublyList.h\"",
+        "page": 43,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p043.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p043.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=43",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=42",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=44",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p044",
+        "title": "std::list: Computer Engineering College",
+        "page": 44,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p044.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p044.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=44",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=43",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=45",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "stack",
+    "topic": "Stack",
+    "subcategory": "LIFO ADT",
+    "title": "Stack",
+    "arTitle": "Stack",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect1",
+        "page": 45
+      },
+      {
+        "pdf": "lect1",
+        "page": 46
+      },
+      {
+        "pdf": "lect1",
+        "page": 47
+      },
+      {
+        "pdf": "lect1",
+        "page": 48
+      },
+      {
+        "pdf": "lect1",
+        "page": 49
+      },
+      {
+        "pdf": "lect1",
+        "page": 50
+      },
+      {
+        "pdf": "lect1",
+        "page": 51
+      },
+      {
+        "pdf": "lect1",
+        "page": 52
+      },
+      {
+        "pdf": "lect1",
+        "page": 53
+      },
+      {
+        "pdf": "lect1",
+        "page": 54
+      },
+      {
+        "pdf": "lect1",
+        "page": 55
+      },
+      {
+        "pdf": "lect1",
+        "page": 56
+      },
+      {
+        "pdf": "lect1",
+        "page": 57
+      },
+      {
+        "pdf": "lect1",
+        "page": 58
+      },
+      {
+        "pdf": "lect1",
+        "page": 59
+      },
+      {
+        "pdf": "lect1",
+        "page": 60
+      },
+      {
+        "pdf": "lect1",
+        "page": 61
+      },
+      {
+        "pdf": "lect1",
+        "page": 62
+      },
+      {
+        "pdf": "lect1",
+        "page": 63
+      },
+      {
+        "pdf": "lect1",
+        "page": 64
+      },
+      {
+        "pdf": "lect1",
+        "page": 65
+      },
+      {
+        "pdf": "lect1",
+        "page": 66
+      },
+      {
+        "pdf": "lect1",
+        "page": 67
+      },
+      {
+        "pdf": "lect1",
+        "page": 68
+      },
+      {
+        "pdf": "lect1",
+        "page": 69
+      }
+    ],
+    "explanation": "Stack follows LIFO: the last value pushed is the first value popped. The lecture uses it for history, RPN, binary conversion, and balanced parentheses.",
+    "arabic": "الـ Stack يعمل LIFO: آخر عنصر يدخل هو أول عنصر يخرج. المحاضرة تستخدمه في history و RPN وتحويل binary وفحص الأقواس.",
+    "traps": [
+      "top() reads without removing.",
+      "For RPN, pop val2 first, then val1."
+    ],
+    "code": "stack<int> s;\ns.push(4);\ns.push(8);\ns.pop();\ncout << s.top();",
+    "examQuestion": "Why does decimal-to-binary use a stack for remainders?",
+    "quickAnswer": "The remainders are produced in reverse output order.",
+    "deepExplanation": "The first remainder is the least significant bit. Popping the stack reverses the sequence into the correct binary representation.",
+    "overlays": [
+      {
+        "label": "top only",
+        "x": 34,
+        "y": 22,
+        "w": 25,
+        "h": 14
+      }
+    ],
+    "trace": "stack",
+    "visualIds": [
+      "lect1-p045",
+      "lect1-p046",
+      "lect1-p047",
+      "lect1-p048",
+      "lect1-p049",
+      "lect1-p050",
+      "lect1-p051",
+      "lect1-p052",
+      "lect1-p053",
+      "lect1-p054",
+      "lect1-p055",
+      "lect1-p056",
+      "lect1-p057",
+      "lect1-p058",
+      "lect1-p059",
+      "lect1-p060",
+      "lect1-p061",
+      "lect1-p062",
+      "lect1-p063",
+      "lect1-p064",
+      "lect1-p065",
+      "lect1-p066",
+      "lect1-p067",
+      "lect1-p068",
+      "lect1-p069"
+    ],
+    "sequence": [
+      {
+        "id": "lect1-p045",
+        "title": "Stack: What is a Stack?",
+        "page": 45,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p045.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p045.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=45",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=44",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=46",
+        "overlays": [
+          {
+            "label": "top only",
+            "x": 34,
+            "y": 22,
+            "w": 25,
+            "h": 14
+          }
+        ]
+      },
+      {
+        "id": "lect1-p046",
+        "title": "Stack: Core Operations in C++ STL",
+        "page": 46,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p046.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p046.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=46",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=45",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=47",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p047",
+        "title": "Stack: Insert Operation",
+        "page": 47,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p047.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p047.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=47",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=46",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=48",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p048",
+        "title": "Stack: Delete Operation",
+        "page": 48,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p048.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p048.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=48",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=47",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=49",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p049",
+        "title": "Stack: Stack implementation",
+        "page": 49,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p049.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p049.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=49",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=48",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=50",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p050",
+        "title": "Stack: Implementation: Basic Stack Operations",
+        "page": 50,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p050.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p050.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=50",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=49",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=51",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p051",
+        "title": "Stack: Reverse-Polish Notation",
+        "page": 51,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p051.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p051.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=51",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=50",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=52",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p052",
+        "title": "Stack: Advanced Application: Reverse",
+        "page": 52,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p052.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p052.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=52",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=51",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=53",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p053",
+        "title": "Stack: Postfix Evaluation Algorithm",
+        "page": 53,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p053.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p053.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=53",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=52",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=54",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p054",
+        "title": "Stack: Evaluate the following Postfix (reverse",
+        "page": 54,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p054.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p054.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=54",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=53",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=55",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p055",
+        "title": "Stack: 12",
+        "page": 55,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p055.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p055.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=55",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=54",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=56",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p056",
+        "title": "Stack: 13",
+        "page": 56,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p056.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p056.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=56",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=55",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=57",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p057",
+        "title": "Stack: 14",
+        "page": 57,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p057.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p057.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=57",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=56",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=58",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p058",
+        "title": "Stack: evaluates to the value on the top: 250",
+        "page": 58,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p058.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p058.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=58",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=57",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=59",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p059",
+        "title": "Stack: Postfix Evaluation Code",
+        "page": 59,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p059.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p059.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=59",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=58",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=60",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p060",
+        "title": "Stack: Data Structures and Algorithms Lab. Experiment 4",
+        "page": 60,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p060.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p060.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=60",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=59",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=61",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p061",
+        "title": "Stack: Data Structures and Algorithms Lab. Experiment 4",
+        "page": 61,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p061.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p061.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=61",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=60",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=62",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p062",
+        "title": "Stack: Data Structures and Algorithms Lab. Experiment 4",
+        "page": 62,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p062.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p062.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=62",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=61",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=63",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p063",
+        "title": "Stack: Data Structures and Algorithms Lab. Experiment 4",
+        "page": 63,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p063.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p063.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=63",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=62",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=64",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p064",
+        "title": "Stack: Data Structures and Algorithms Lab. Experiment 4",
+        "page": 64,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p064.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p064.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=64",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=63",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=65",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p065",
+        "title": "Stack: Computer Engineering College",
+        "page": 65,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p065.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p065.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=65",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=64",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=66",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p066",
+        "title": "Stack: What is a Queue?",
+        "page": 66,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p066.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p066.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=66",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=65",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=67",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p067",
+        "title": "Stack: Real-World & Technical Applications",
+        "page": 67,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p067.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p067.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=67",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=66",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=68",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p068",
+        "title": "Stack: Applications",
+        "page": 68,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p068.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p068.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=68",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=67",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=69",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p069",
+        "title": "Stack: The STL Queue Operations",
+        "page": 69,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p069.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p069.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=69",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=68",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=70",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "queue",
+    "topic": "Queue",
+    "subcategory": "FIFO ADT",
+    "title": "Queue",
+    "arTitle": "Queue",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect1",
+        "page": 70
+      },
+      {
+        "pdf": "lect1",
+        "page": 71
+      },
+      {
+        "pdf": "lect1",
+        "page": 72
+      },
+      {
+        "pdf": "lect1",
+        "page": 73
+      },
+      {
+        "pdf": "lect1",
+        "page": 74
+      },
+      {
+        "pdf": "lect1",
+        "page": 75
+      },
+      {
+        "pdf": "lect1",
+        "page": 76
+      },
+      {
+        "pdf": "lect1",
+        "page": 77
+      },
+      {
+        "pdf": "lect1",
+        "page": 78
+      },
+      {
+        "pdf": "lect1",
+        "page": 79
+      },
+      {
+        "pdf": "lect1",
+        "page": 80
+      },
+      {
+        "pdf": "lect1",
+        "page": 81
+      },
+      {
+        "pdf": "lect1",
+        "page": 82
+      },
+      {
+        "pdf": "lect1",
+        "page": 83
+      }
+    ],
+    "explanation": "Queue follows FIFO: push enters at the rear and pop removes from the front.",
+    "arabic": "الـ Queue يعمل FIFO: الإدخال من الخلف rear والحذف من الأمام front.",
+    "traps": [
+      "queue.pop() removes the front, not the back.",
+      "front() reads; pop() removes."
+    ],
+    "code": "queue<int> q;\nq.push(10);\nq.push(20);\ncout << q.front();\nq.pop();",
+    "examQuestion": "Which node becomes front after one pop from A, B, C?",
+    "quickAnswer": "B becomes the front.",
+    "deepExplanation": "A entered first, so it is removed first. The next oldest item is B.",
+    "overlays": [
+      {
+        "label": "front leaves first",
+        "x": 20,
+        "y": 28,
+        "w": 31,
+        "h": 14
+      },
+      {
+        "label": "rear receives new items",
+        "x": 56,
+        "y": 28,
+        "w": 34,
+        "h": 14
+      }
+    ],
+    "trace": "queue",
+    "visualIds": [
+      "lect1-p070",
+      "lect1-p071",
+      "lect1-p072",
+      "lect1-p073",
+      "lect1-p074",
+      "lect1-p075",
+      "lect1-p076",
+      "lect1-p077",
+      "lect1-p078",
+      "lect1-p079",
+      "lect1-p080",
+      "lect1-p081",
+      "lect1-p082",
+      "lect1-p083"
+    ],
+    "sequence": [
+      {
+        "id": "lect1-p070",
+        "title": "Queue: Implementations",
+        "page": 70,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p070.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p070.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=70",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=69",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=71",
+        "overlays": [
+          {
+            "label": "front leaves first",
+            "x": 20,
+            "y": 28,
+            "w": 31,
+            "h": 14
+          },
+          {
+            "label": "rear receives new items",
+            "x": 56,
+            "y": 28,
+            "w": 34,
+            "h": 14
+          }
+        ]
+      },
+      {
+        "id": "lect1-p071",
+        "title": "Queue: Implementing a Queue with a Circularly Linked List",
+        "page": 71,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p071.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p071.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=71",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=70",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=72",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p072",
+        "title": "Queue: A Queue in the STL",
+        "page": 72,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p072.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p072.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=72",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=71",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=73",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p073",
+        "title": "Queue: • Another application is performing a breadth",
+        "page": 73,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p073.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p073.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=73",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=72",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=74",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p074",
+        "title": "Queue: The easiest implementation is",
+        "page": 74,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p074.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p074.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=74",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=73",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=75",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p075",
+        "title": "Queue: 11",
+        "page": 75,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p075.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p075.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=75",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=74",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=76",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p076",
+        "title": "Queue: 12",
+        "page": 76,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p076.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p076.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=76",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=75",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=77",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p077",
+        "title": "Queue: 13",
+        "page": 77,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p077.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p077.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=77",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=76",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=78",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p078",
+        "title": "Queue: The resulting order",
+        "page": 78,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p078.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p078.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=78",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=77",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=79",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p079",
+        "title": "Queue: Double-Ended Queue ( Deque)",
+        "page": 79,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p079.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p079.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=79",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=78",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=80",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p080",
+        "title": "Queue: deque Operations",
+        "page": 80,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p080.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p080.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=80",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=79",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=81",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p081",
+        "title": "Queue: STL Implementation",
+        "page": 81,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p081.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p081.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=81",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=80",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=82",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p082",
+        "title": "Queue: Output 18",
+        "page": 82,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p082.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p082.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=82",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=81",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=83",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p083",
+        "title": "Queue: Data Structures and Algorithms Lab. Experiment 5",
+        "page": 83,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p083.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p083.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=83",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=82",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=84",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "deque",
+    "topic": "Deque",
+    "subcategory": "Double-ended queue",
+    "title": "Deque",
+    "arTitle": "Deque",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect1",
+        "page": 84
+      },
+      {
+        "pdf": "lect1",
+        "page": 85
+      },
+      {
+        "pdf": "lect1",
+        "page": 86
+      },
+      {
+        "pdf": "lect1",
+        "page": 87
+      },
+      {
+        "pdf": "lect1",
+        "page": 88
+      },
+      {
+        "pdf": "lect1",
+        "page": 89
+      }
+    ],
+    "explanation": "Deque allows insertion and deletion at both front and rear, which makes it natural for palindrome checking.",
+    "arabic": "الـ Deque يسمح بالإضافة والحذف من البداية والنهاية، لذلك مناسب لفحص palindrome.",
+    "traps": [
+      "Deque is not automatically sorted.",
+      "Palindrome logic compares before popping both ends."
+    ],
+    "code": "while (D.size() > 1) {\n  if (D.front() != D.back()) return false;\n  D.pop_front();\n  D.pop_back();\n}",
+    "examQuestion": "Why is deque better than queue for palindrome checking?",
+    "quickAnswer": "It gives direct access to both front and back.",
+    "deepExplanation": "A palindrome must compare symmetric endpoints. Queue exposes only the front for removal, while deque exposes both ends.",
+    "overlays": [
+      {
+        "label": "compare both ends",
+        "x": 18,
+        "y": 44,
+        "w": 53,
+        "h": 12
+      }
+    ],
+    "trace": "deque",
+    "visualIds": [
+      "lect1-p084",
+      "lect1-p085",
+      "lect1-p086",
+      "lect1-p087",
+      "lect1-p088",
+      "lect1-p089"
+    ],
+    "sequence": [
+      {
+        "id": "lect1-p084",
+        "title": "Deque: Data Structures and Algorithms Lab. Experiment 5",
+        "page": 84,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p084.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p084.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=84",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=83",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=85",
+        "overlays": [
+          {
+            "label": "compare both ends",
+            "x": 18,
+            "y": 44,
+            "w": 53,
+            "h": 12
+          }
+        ]
+      },
+      {
+        "id": "lect1-p085",
+        "title": "Deque: Data Structures and Algorithms Lab. Experiment 5",
+        "page": 85,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p085.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p085.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=85",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=84",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=86",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p086",
+        "title": "Deque: Data Structures and Algorithms Lab. Experiment 5",
+        "page": 86,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p086.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p086.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=86",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=85",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=87",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p087",
+        "title": "Deque: Data Structures and Algorithms Lab. Experiment 5",
+        "page": 87,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p087.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p087.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=87",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=86",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=88",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p088",
+        "title": "Deque: Data Structures and Algorithms Lab. Experiment 5",
+        "page": 88,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p088.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p088.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=88",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=87",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=89",
+        "overlays": []
+      },
+      {
+        "id": "lect1-p089",
+        "title": "Deque: Data Structures and Algorithms Lab. Experiment 5",
+        "page": 89,
+        "pdf": "Lect1_to_Queue_bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect1-p089.png",
+        "thumb": "assets/lecture-pages/thumbs/lect1-p089.webp",
+        "pdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=89",
+        "prevPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=88",
+        "nextPdfUrl": "assets/source-pdfs/Lect1_to_Queue_bookmarked.pdf#page=89",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "binary-search",
+    "topic": "Binary search",
+    "subcategory": "Halving search range",
+    "title": "Binary Search",
+    "arTitle": "Binary Search",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect5",
+        "page": 11
+      },
+      {
+        "pdf": "lect5",
+        "page": 12
+      },
+      {
+        "pdf": "lect5",
+        "page": 13
+      },
+      {
+        "pdf": "lect5",
+        "page": 14
+      },
+      {
+        "pdf": "lect5",
+        "page": 15
+      },
+      {
+        "pdf": "lect5",
+        "page": 16
+      },
+      {
+        "pdf": "lect5",
+        "page": 17
+      },
+      {
+        "pdf": "lect5",
+        "page": 104
+      },
+      {
+        "pdf": "lect5",
+        "page": 105
+      },
+      {
+        "pdf": "lect5",
+        "page": 106
+      },
+      {
+        "pdf": "lect5",
+        "page": 107
+      },
+      {
+        "pdf": "lect5",
+        "page": 108
+      }
+    ],
+    "explanation": "Binary search works only on sorted data. Every comparison with mid eliminates half of the remaining search range.",
+    "arabic": "البحث الثنائي يعمل فقط على بيانات مرتبة. كل مقارنة مع mid تستبعد نصف المجال المتبقي.",
+    "traps": [
+      "Unsorted input makes binary search invalid.",
+      "Update first/last to mid + 1 or mid - 1, not mid."
+    ],
+    "code": "int mid = (first + last) / 2;\nif (target == a[mid]) return mid;\nelse if (target < a[mid]) last = mid - 1;\nelse first = mid + 1;",
+    "examQuestion": "Which half is eliminated when target < a[mid]?",
+    "quickAnswer": "The right half, including mid, is eliminated.",
+    "deepExplanation": "Because the array is sorted, every value to the right of mid is at least a[mid] and therefore too large.",
+    "overlays": [
+      {
+        "label": "cross out eliminated half",
+        "x": 51,
+        "y": 52,
+        "w": 38,
+        "h": 13
+      }
+    ],
+    "trace": "binary-search",
+    "visualIds": [
+      "lect5-p011",
+      "lect5-p012",
+      "lect5-p013",
+      "lect5-p014",
+      "lect5-p015",
+      "lect5-p016",
+      "lect5-p017",
+      "lect5-p104",
+      "lect5-p105",
+      "lect5-p106",
+      "lect5-p107",
+      "lect5-p108"
+    ],
+    "sequence": [
+      {
+        "id": "lect5-p011",
+        "title": "Binary search: Binary Search Algorithm",
+        "page": 11,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p011.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p011.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=11",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=10",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=12",
+        "overlays": [
+          {
+            "label": "cross out eliminated half",
+            "x": 51,
+            "y": 52,
+            "w": 38,
+            "h": 13
+          }
+        ]
+      },
+      {
+        "id": "lect5-p012",
+        "title": "Binary search: Why Is It Called \"Binary\" Search?",
+        "page": 12,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p012.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p012.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=12",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=11",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=13",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p013",
+        "title": "Binary search: int search(int [],int target, int first, int last)",
+        "page": 13,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p013.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p013.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=13",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=12",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=14",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p014",
+        "title": "Binary search: Where is the composition?",
+        "page": 14,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p014.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p014.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=14",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=13",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=15",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p015",
+        "title": "Binary search: Binary Search Example",
+        "page": 15,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p015.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p015.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=15",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=14",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=16",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p016",
+        "title": "Binary search: target is 33",
+        "page": 16,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p016.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p016.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=16",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=15",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=17",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p017",
+        "title": "Binary search: Sequential Search",
+        "page": 17,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p017.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p017.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=17",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=16",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=18",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p104",
+        "title": "Binary search: Binary Tree implementation or representation",
+        "page": 104,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p104.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p104.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=104",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=103",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=105",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p105",
+        "title": "Binary search: Binary Tree implementation or representation",
+        "page": 105,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p105.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p105.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=105",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=104",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=106",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p106",
+        "title": "Binary search: Binary Tree implementation or representation",
+        "page": 106,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p106.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p106.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=106",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=105",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=107",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p107",
+        "title": "Binary search: Binary Tree implementation or representation",
+        "page": 107,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p107.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p107.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=107",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=106",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=108",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p108",
+        "title": "Binary search: Binary Tree implementation or representation",
+        "page": 108,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p108.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p108.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=108",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=107",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=109",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "divide-and-conquer",
+    "topic": "Divide and conquer",
+    "subcategory": "Recursive strategy",
+    "title": "Divide and Conquer",
+    "arTitle": "Divide and Conquer",
+    "examImportance": "medium",
+    "pages": [
+      {
+        "pdf": "lect5",
+        "page": 5
+      },
+      {
+        "pdf": "lect5",
+        "page": 6
+      },
+      {
+        "pdf": "lect5",
+        "page": 7
+      },
+      {
+        "pdf": "lect5",
+        "page": 8
+      },
+      {
+        "pdf": "lect5",
+        "page": 9
+      },
+      {
+        "pdf": "lect5",
+        "page": 57
+      },
+      {
+        "pdf": "lect5",
+        "page": 58
+      },
+      {
+        "pdf": "lect5",
+        "page": 59
+      },
+      {
+        "pdf": "lect5",
+        "page": 60
+      },
+      {
+        "pdf": "lect5",
+        "page": 61
+      },
+      {
+        "pdf": "lect5",
+        "page": 62
+      },
+      {
+        "pdf": "lect5",
+        "page": 63
+      },
+      {
+        "pdf": "lect5",
+        "page": 64
+      },
+      {
+        "pdf": "lect5",
+        "page": 65
+      },
+      {
+        "pdf": "lect5",
+        "page": 66
+      },
+      {
+        "pdf": "lect5",
+        "page": 67
+      }
+    ],
+    "explanation": "Divide and conquer splits a problem into smaller similar problems, solves the relevant part, and combines or returns the result.",
+    "arabic": "تقنية divide and conquer تقسم المشكلة إلى مشاكل أصغر مشابهة، ثم تحل الجزء المناسب وتدمج أو ترجع النتيجة.",
+    "traps": [
+      "The smaller problem must really be smaller.",
+      "The base case must stop the splitting."
+    ],
+    "code": "solve(problem):\n  if base_case(problem): return direct_answer\n  left, right = divide(problem)\n  return conquer(smaller_part)",
+    "examQuestion": "Why is binary search a divide-and-conquer algorithm?",
+    "quickAnswer": "It divides the sorted range in half and continues on one smaller half.",
+    "deepExplanation": "Each step reduces the original search to the same problem on a smaller interval until the target is found or the range is empty.",
+    "overlays": [
+      {
+        "label": "same problem, smaller range",
+        "x": 12,
+        "y": 25,
+        "w": 50,
+        "h": 16
+      }
+    ],
+    "visualIds": [
+      "lect5-p005",
+      "lect5-p006",
+      "lect5-p007",
+      "lect5-p008",
+      "lect5-p009",
+      "lect5-p057",
+      "lect5-p058",
+      "lect5-p059",
+      "lect5-p060",
+      "lect5-p061",
+      "lect5-p062",
+      "lect5-p063",
+      "lect5-p064",
+      "lect5-p065",
+      "lect5-p066",
+      "lect5-p067"
+    ],
+    "sequence": [
+      {
+        "id": "lect5-p005",
+        "title": "Divide and conquer: An Example (1/2)",
+        "page": 5,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p005.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p005.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=5",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=4",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=6",
+        "overlays": [
+          {
+            "label": "same problem, smaller range",
+            "x": 12,
+            "y": 25,
+            "w": 50,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "lect5-p006",
+        "title": "Divide and conquer: An Example (2/2)",
+        "page": 6,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p006.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p006.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=6",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=5",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=7",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p007",
+        "title": "Divide and conquer: Deriving a Recursive Solution (1/2)",
+        "page": 7,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p007.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p007.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=7",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=6",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=8",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p008",
+        "title": "Divide and conquer: Deriving a Recursive Solution (2/2)",
+        "page": 8,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p008.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p008.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=8",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=7",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=9",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p009",
+        "title": "Divide and conquer: The Search Example Revisited",
+        "page": 9,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p009.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p009.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=9",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=8",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=10",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p057",
+        "title": "STL algorithms: Lecture 6: Sorting Algorithms",
+        "page": 57,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p057.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p057.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=57",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=56",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=58",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p058",
+        "title": "STL algorithms: Selection Sort",
+        "page": 58,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p058.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p058.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=58",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=57",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=59",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p059",
+        "title": "STL algorithms: • In a series of n - 1 iterations, the successive elements list[index] and list[index + 1]",
+        "page": 59,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p059.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p059.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=59",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=58",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=60",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p060",
+        "title": "STL algorithms: Bubble Sort Example 1",
+        "page": 60,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p060.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p060.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=60",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=59",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=61",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p061",
+        "title": "STL algorithms: • The merge sort algorithm uses the divide-and-conquer technique to sort a list.",
+        "page": 61,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p061.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p061.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=61",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=60",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=62",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p062",
+        "title": "STL algorithms: Merge Sort Example 2",
+        "page": 62,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p062.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p062.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=62",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=61",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=63",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p063",
+        "title": "Divide and conquer: Insertion Sort",
+        "page": 63,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p063.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p063.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=63",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=62",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=64",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p064",
+        "title": "Divide and conquer: Insertion Sort",
+        "page": 64,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p064.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p064.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=64",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=63",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=65",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p065",
+        "title": "Divide and conquer: Insertion Sort Examples",
+        "page": 65,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p065.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p065.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=65",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=64",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=66",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p066",
+        "title": "Divide and conquer: Example 2: Original Array: (5, 6, 2, 4, 7, 3, 1).",
+        "page": 66,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p066.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p066.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=66",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=65",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=67",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p067",
+        "title": "Divide and conquer: • The quick sort algorithm uses the divide-and-conquer technique to sort a list.",
+        "page": 67,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p067.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p067.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=67",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=66",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=68",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "recursion-basics",
+    "topic": "Recursion basics",
+    "subcategory": "Base and general case",
+    "title": "Recursion Basics",
+    "arTitle": "أساسيات Recursion",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect5",
+        "page": 3
+      },
+      {
+        "pdf": "lect5",
+        "page": 4
+      },
+      {
+        "pdf": "lect5",
+        "page": 19
+      },
+      {
+        "pdf": "lect5",
+        "page": 20
+      },
+      {
+        "pdf": "lect5",
+        "page": 21
+      },
+      {
+        "pdf": "lect5",
+        "page": 22
+      },
+      {
+        "pdf": "lect5",
+        "page": 30
+      },
+      {
+        "pdf": "lect5",
+        "page": 39
+      }
+    ],
+    "explanation": "A recursive function calls itself on a smaller input. It must have a base case and must progress toward that base case.",
+    "arabic": "الدالة recursive تستدعي نفسها على مدخل أصغر. لازم تحتوي base case ولازم تتحرك باتجاهها.",
+    "traps": [
+      "No base case means no stopping.",
+      "No progress toward the base case also means no stopping."
+    ],
+    "code": "int fact(int n) {\n  if (n == 0) return 1;\n  return n * fact(n - 1);\n}",
+    "examQuestion": "Where is the base case in factorial recursion?",
+    "quickAnswer": "if (n == 0) return 1;",
+    "deepExplanation": "That case is solved directly and stops new recursive calls. All positive n values reduce toward n == 0.",
+    "overlays": [
+      {
+        "label": "base case stops recursion",
+        "x": 32,
+        "y": 40,
+        "w": 38,
+        "h": 12
+      }
+    ],
+    "visualIds": [
+      "lect5-p003",
+      "lect5-p004",
+      "lect5-p019",
+      "lect5-p020",
+      "lect5-p021",
+      "lect5-p022",
+      "lect5-p030",
+      "lect5-p039"
+    ],
+    "sequence": [
+      {
+        "id": "lect5-p003",
+        "title": "Recursion basics: The Basic Idea",
+        "page": 3,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p003.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p003.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=3",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=2",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=4",
+        "overlays": [
+          {
+            "label": "base case stops recursion",
+            "x": 32,
+            "y": 40,
+            "w": 38,
+            "h": 12
+          }
+        ]
+      },
+      {
+        "id": "lect5-p004",
+        "title": "Recursion basics: About Efficiency",
+        "page": 4,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p004.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p004.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=4",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=3",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=5",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p019",
+        "title": "Recursion basics: EXAMPLE :Suppose that we are searching for item 89.",
+        "page": 19,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p019.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p019.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=19",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=18",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=20",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p020",
+        "title": "Recursion basics: Four Questions to Ask/Answer",
+        "page": 20,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p020.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p020.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=20",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=19",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=21",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p021",
+        "title": "Recursion basics: A Recursive Function: Factorial (1/4)",
+        "page": 21,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p021.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p021.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=21",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=20",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=22",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p022",
+        "title": "Recursion basics: A Recursive Function: Factorial (2/4)",
+        "page": 22,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p022.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p022.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=22",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=21",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=23",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p030",
+        "title": "Recursion basics: From the previous example (factorial), it is clear that",
+        "page": 30,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p030.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p030.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=30",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=29",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=31",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p039",
+        "title": "Recursion basics: Invariants for Recursive Functions",
+        "page": 39,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p039.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p039.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=39",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=38",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=40",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "function-call-stack",
+    "topic": "Function call stack",
+    "subcategory": "Stack frames",
+    "title": "Function Call Stack",
+    "arTitle": "Call Stack",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect5",
+        "page": 23
+      },
+      {
+        "pdf": "lect5",
+        "page": 24
+      },
+      {
+        "pdf": "lect5",
+        "page": 25
+      },
+      {
+        "pdf": "lect5",
+        "page": 26
+      },
+      {
+        "pdf": "lect5",
+        "page": 27
+      },
+      {
+        "pdf": "lect5",
+        "page": 28
+      },
+      {
+        "pdf": "lect5",
+        "page": 29
+      }
+    ],
+    "explanation": "Each function call creates a stack frame with local variables and return information. Recursive calls push frames; completed calls pop frames.",
+    "arabic": "كل نداء دالة ينشئ stack frame يحتوي المتغيرات ومكان الرجوع. النداءات recursive تضيف frames، وعند الانتهاء يتم pop.",
+    "traps": [
+      "Return values move upward after the base case.",
+      "The active frame is always the top frame."
+    ],
+    "code": "cout << fact(3);\n// push fact(3), fact(2), fact(1), fact(0)\n// then pop with return values",
+    "examQuestion": "Which frame is active immediately before fact(0) returns?",
+    "quickAnswer": "The fact(0) frame at the top of the call stack.",
+    "deepExplanation": "The newest call is on top. When it returns, it is popped and control resumes in the caller frame.",
+    "overlays": [
+      {
+        "label": "push down, pop up",
+        "x": 55,
+        "y": 22,
+        "w": 30,
+        "h": 16
+      }
+    ],
+    "traceEngine": "call-stack",
+    "visualIds": [
+      "lect5-p023",
+      "lect5-p024",
+      "lect5-p025",
+      "lect5-p026",
+      "lect5-p027",
+      "lect5-p028",
+      "lect5-p029"
+    ],
+    "sequence": [
+      {
+        "id": "lect5-p023",
+        "title": "Function call stack: A Recursive Function: Factorial (3/4)",
+        "page": 23,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p023.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p023.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=23",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=22",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=24",
+        "overlays": [
+          {
+            "label": "push down, pop up",
+            "x": 55,
+            "y": 22,
+            "w": 30,
+            "h": 16
+          }
+        ]
+      },
+      {
+        "id": "lect5-p024",
+        "title": "Function call stack: Function Call Stack (Recursion Simulation)",
+        "page": 24,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p024.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p024.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=24",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=23",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=25",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p025",
+        "title": "Function call stack: official lecture visual",
+        "page": 25,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p025.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p025.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=25",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=24",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=26",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p026",
+        "title": "Function call stack: official lecture visual",
+        "page": 26,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p026.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p026.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=26",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=25",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=27",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p027",
+        "title": "Function call stack: After evaluating fact(1), pop fact(1).",
+        "page": 27,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p027.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p027.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=27",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=26",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=28",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p028",
+        "title": "Function call stack: A Recursive Function: Factorial (4/4)",
+        "page": 28,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p028.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p028.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=28",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=27",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=29",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p029",
+        "title": "Function call stack: Execution of fact(4)",
+        "page": 29,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p029.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p029.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=29",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=28",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=30",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "factorial-recursion",
+    "topic": "Factorial recursion",
+    "subcategory": "Return substitution",
+    "title": "Factorial Recursion",
+    "arTitle": "Factorial Recursion",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect5",
+        "page": 20
+      },
+      {
+        "pdf": "lect5",
+        "page": 21
+      },
+      {
+        "pdf": "lect5",
+        "page": 22
+      },
+      {
+        "pdf": "lect5",
+        "page": 23
+      },
+      {
+        "pdf": "lect5",
+        "page": 24
+      },
+      {
+        "pdf": "lect5",
+        "page": 25
+      },
+      {
+        "pdf": "lect5",
+        "page": 26
+      },
+      {
+        "pdf": "lect5",
+        "page": 27
+      },
+      {
+        "pdf": "lect5",
+        "page": 28
+      },
+      {
+        "pdf": "lect5",
+        "page": 29
+      }
+    ],
+    "explanation": "fact(n) waits for fact(n-1). The multiplication is completed while return values propagate upward.",
+    "arabic": "fact(n) ينتظر fact(n-1). الضرب يكتمل عند رجوع القيم للأعلى.",
+    "traps": [
+      "Do not finish n * fact(n-1) until fact(n-1) returns.",
+      "fact(0)=1 is the stopping point."
+    ],
+    "code": "int fact(int n) {\n  if (n == 0) return 1;\n  return n * fact(n - 1);\n}",
+    "examQuestion": "What is waiting inside fact(3) before fact(2) returns?",
+    "quickAnswer": "3 * fact(2).",
+    "deepExplanation": "fact(3) cannot finish until the recursive call fact(2) produces its return value.",
+    "overlays": [
+      {
+        "label": "waiting expression",
+        "x": 42,
+        "y": 46,
+        "w": 31,
+        "h": 13
+      }
+    ],
+    "traceEngine": "box-trace",
+    "visualIds": [
+      "lect5-p020",
+      "lect5-p021",
+      "lect5-p022",
+      "lect5-p023",
+      "lect5-p024",
+      "lect5-p025",
+      "lect5-p026",
+      "lect5-p027",
+      "lect5-p028",
+      "lect5-p029"
+    ],
+    "sequence": [
+      {
+        "id": "lect5-p020",
+        "title": "Recursion basics: Four Questions to Ask/Answer",
+        "page": 20,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p020.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p020.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=20",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=19",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=21",
+        "overlays": [
+          {
+            "label": "waiting expression",
+            "x": 42,
+            "y": 46,
+            "w": 31,
+            "h": 13
+          }
+        ]
+      },
+      {
+        "id": "lect5-p021",
+        "title": "Recursion basics: A Recursive Function: Factorial (1/4)",
+        "page": 21,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p021.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p021.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=21",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=20",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=22",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p022",
+        "title": "Recursion basics: A Recursive Function: Factorial (2/4)",
+        "page": 22,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p022.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p022.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=22",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=21",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=23",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p023",
+        "title": "Function call stack: A Recursive Function: Factorial (3/4)",
+        "page": 23,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p023.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p023.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=23",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=22",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=24",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p024",
+        "title": "Function call stack: Function Call Stack (Recursion Simulation)",
+        "page": 24,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p024.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p024.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=24",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=23",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=25",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p025",
+        "title": "Function call stack: official lecture visual",
+        "page": 25,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p025.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p025.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=25",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=24",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=26",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p026",
+        "title": "Function call stack: official lecture visual",
+        "page": 26,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p026.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p026.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=26",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=25",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=27",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p027",
+        "title": "Function call stack: After evaluating fact(1), pop fact(1).",
+        "page": 27,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p027.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p027.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=27",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=26",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=28",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p028",
+        "title": "Function call stack: A Recursive Function: Factorial (4/4)",
+        "page": 28,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p028.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p028.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=28",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=27",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=29",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p029",
+        "title": "Function call stack: Execution of fact(4)",
+        "page": 29,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p029.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p029.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=29",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=28",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=30",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "box-traces",
+    "topic": "Box traces",
+    "subcategory": "Activation records",
+    "title": "Box Traces",
+    "arTitle": "Box Trace",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect5",
+        "page": 31
+      },
+      {
+        "pdf": "lect5",
+        "page": 32
+      },
+      {
+        "pdf": "lect5",
+        "page": 33
+      },
+      {
+        "pdf": "lect5",
+        "page": 34
+      },
+      {
+        "pdf": "lect5",
+        "page": 35
+      },
+      {
+        "pdf": "lect5",
+        "page": 36
+      },
+      {
+        "pdf": "lect5",
+        "page": 37
+      },
+      {
+        "pdf": "lect5",
+        "page": 38
+      }
+    ],
+    "explanation": "A box trace represents each recursive call as an activation record. Placeholder A stores the value returned by the recursive call.",
+    "arabic": "الـ box trace يمثل كل نداء recursive كصندوق activation record. الرمز A يمثل قيمة النداء recursive المنتظرة.",
+    "traps": [
+      "Label the recursive call location.",
+      "Cross off the completed box only after its return value is substituted in the caller."
+    ],
+    "code": "return n * fact(n - 1); // A",
+    "examQuestion": "What is substituted into A after fact(0) returns?",
+    "quickAnswer": "The value 1 is substituted into the caller's A placeholder.",
+    "deepExplanation": "The base case returns 1. The caller box resumes at point A, fills the placeholder, computes its return value, and then gets crossed off.",
+    "overlays": [
+      {
+        "label": "A placeholder",
+        "x": 34,
+        "y": 38,
+        "w": 26,
+        "h": 13
+      },
+      {
+        "label": "cross off completed box",
+        "x": 55,
+        "y": 66,
+        "w": 33,
+        "h": 13
+      }
+    ],
+    "traceEngine": "box-trace",
+    "visualIds": [
+      "lect5-p031",
+      "lect5-p032",
+      "lect5-p033",
+      "lect5-p034",
+      "lect5-p035",
+      "lect5-p036",
+      "lect5-p037",
+      "lect5-p038"
+    ],
+    "sequence": [
+      {
+        "id": "lect5-p031",
+        "title": "Box traces:  A box trace is an illustration of how a compiler",
+        "page": 31,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p031.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p031.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=31",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=30",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=32",
+        "overlays": [
+          {
+            "label": "A placeholder",
+            "x": 34,
+            "y": 38,
+            "w": 26,
+            "h": 13
+          },
+          {
+            "label": "cross off completed box",
+            "x": 55,
+            "y": 66,
+            "w": 33,
+            "h": 13
+          }
+        ]
+      },
+      {
+        "id": "lect5-p032",
+        "title": "Box traces: Constructing a Box Trace (1/7)",
+        "page": 32,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p032.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p032.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=32",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=31",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=33",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p033",
+        "title": "Box traces: Constructing a Box Trace (2/7)",
+        "page": 33,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p033.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p033.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=33",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=32",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=34",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p034",
+        "title": "Box traces: Constructing a Box Trace (3/7)",
+        "page": 34,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p034.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p034.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=34",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=33",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=35",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p035",
+        "title": "Box traces: Constructing a Box Trace (4/7)",
+        "page": 35,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p035.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p035.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=35",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=34",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=36",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p036",
+        "title": "Box traces: Constructing a Box Trace (5/7)",
+        "page": 36,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p036.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p036.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=36",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=35",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=37",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p037",
+        "title": "Box traces: Constructing a Box Trace (6/7)",
+        "page": 37,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p037.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p037.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=37",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=36",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=38",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p038",
+        "title": "Box traces: Constructing a Box Trace (7/7)",
+        "page": 38,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p038.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p038.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=38",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=37",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=39",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "recursive-power",
+    "topic": "Recursive power()",
+    "subcategory": "Return value multiplication",
+    "title": "Recursive power()",
+    "arTitle": "power() recursion",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect5",
+        "page": 40
+      },
+      {
+        "pdf": "lect5",
+        "page": 41
+      },
+      {
+        "pdf": "lect5",
+        "page": 42
+      },
+      {
+        "pdf": "lect5",
+        "page": 43
+      },
+      {
+        "pdf": "lect5",
+        "page": 44
+      }
+    ],
+    "explanation": "power(x, n) reduces n until n == 0, then multiplies by x while returning back up the stack.",
+    "arabic": "power(x,n) ينقص n إلى أن يصل n == 0، ثم يضرب في x أثناء الرجوع للأعلى.",
+    "traps": [
+      "The base case for n == 0 returns 1.",
+      "Negative n is rejected in the lecture code."
+    ],
+    "code": "int power(int x, int n) {\n  if (n < 0) exit(1);\n  if (n > 0) return power(x, n - 1) * x;\n  return 1;\n}",
+    "examQuestion": "What is the return path for power(2,3)?",
+    "quickAnswer": "1 -> 2 -> 4 -> 8.",
+    "deepExplanation": "power(2,0) returns 1, then each waiting call multiplies by 2 while the stack unwinds.",
+    "overlays": [
+      {
+        "label": "return path",
+        "x": 18,
+        "y": 58,
+        "w": 38,
+        "h": 13
+      }
+    ],
+    "trace": "power",
+    "visualIds": [
+      "lect5-p040",
+      "lect5-p041",
+      "lect5-p042",
+      "lect5-p043",
+      "lect5-p044"
+    ],
+    "sequence": [
+      {
+        "id": "lect5-p040",
+        "title": "Recursive power(): Return a Value",
+        "page": 40,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p040.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p040.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=40",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=39",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=41",
+        "overlays": [
+          {
+            "label": "return path",
+            "x": 18,
+            "y": 58,
+            "w": 38,
+            "h": 13
+          }
+        ]
+      },
+      {
+        "id": "lect5-p041",
+        "title": "Recursive power(): Function Definition for power()",
+        "page": 41,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p041.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p041.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=41",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=40",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=42",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p042",
+        "title": "Recursive power(): Calling Function power()",
+        "page": 42,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p042.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p042.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=42",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=41",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=43",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p043",
+        "title": "Recursive power(): Calling Function power()",
+        "page": 43,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p043.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p043.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=43",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=42",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=44",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p044",
+        "title": "Recursive power(): Tracing Function power()",
+        "page": 44,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p044.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p044.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=44",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=43",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=45",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "binary-search-recursion",
+    "topic": "Binary search recursion",
+    "subcategory": "Recursive range boxes",
+    "title": "Binary Search Recursion",
+    "arTitle": "Binary Search Recursive",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect5",
+        "page": 49
+      },
+      {
+        "pdf": "lect5",
+        "page": 50
+      },
+      {
+        "pdf": "lect5",
+        "page": 51
+      },
+      {
+        "pdf": "lect5",
+        "page": 52
+      },
+      {
+        "pdf": "lect5",
+        "page": 53
+      },
+      {
+        "pdf": "lect5",
+        "page": 54
+      },
+      {
+        "pdf": "lect5",
+        "page": 55
+      },
+      {
+        "pdf": "lect5",
+        "page": 56
+      }
+    ],
+    "explanation": "Recursive binary search passes the same array but a smaller first..last range into the next call.",
+    "arabic": "الـ binary search recursive يمرر نفس المصفوفة لكن بمجال first..last أصغر في كل نداء.",
+    "traps": [
+      "first > last is the not-found base case.",
+      "The recursive call must use first..mid-1 or mid+1..last."
+    ],
+    "code": "if (first > last) return -1;\nint mid = first + (last - first) / 2;\nif (target == a[mid]) return mid;\nif (target < a[mid]) return search(a, first, mid - 1, target);\nreturn search(a, mid + 1, last, target);",
+    "examQuestion": "What base case returns -1?",
+    "quickAnswer": "first > last.",
+    "deepExplanation": "When first passes last, the active search range is empty, so the target is not in the array.",
+    "overlays": [
+      {
+        "label": "empty range => -1",
+        "x": 48,
+        "y": 72,
+        "w": 33,
+        "h": 12
+      }
+    ],
+    "trace": "binary-search",
+    "visualIds": [
+      "lect5-p049",
+      "lect5-p050",
+      "lect5-p051",
+      "lect5-p052",
+      "lect5-p053",
+      "lect5-p054",
+      "lect5-p055",
+      "lect5-p056"
+    ],
+    "sequence": [
+      {
+        "id": "lect5-p049",
+        "title": "Binary search recursion: Searching an Array: Binary Search (1/8)",
+        "page": 49,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p049.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p049.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=49",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=48",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=50",
+        "overlays": [
+          {
+            "label": "empty range => -1",
+            "x": 48,
+            "y": 72,
+            "w": 33,
+            "h": 12
+          }
+        ]
+      },
+      {
+        "id": "lect5-p050",
+        "title": "Binary search recursion: Searching an Array: Binary Search (2/8)",
+        "page": 50,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p050.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p050.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=50",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=49",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=51",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p051",
+        "title": "Binary search recursion: Searching an Array: Binary Search (3/8)",
+        "page": 51,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p051.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p051.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=51",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=50",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=52",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p052",
+        "title": "Binary search recursion: Searching an Array: Binary Search (4/8)",
+        "page": 52,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p052.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p052.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=52",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=51",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=53",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p053",
+        "title": "Binary search recursion: Searching an Array: Binary Search (5/8)",
+        "page": 53,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p053.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p053.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=53",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=52",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=54",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p054",
+        "title": "Binary search recursion: Searching an Array: Binary Search (6/8)",
+        "page": 54,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p054.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p054.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=54",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=53",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=55",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p055",
+        "title": "Binary search recursion: Searching an Array: Binary Search (7/8)",
+        "page": 55,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p055.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p055.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=55",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=54",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=56",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p056",
+        "title": "Binary search recursion: Searching an Array: Binary Search (8/8)",
+        "page": 56,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p056.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p056.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=56",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=55",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=57",
+        "overlays": []
+      }
+    ]
+  },
+  {
+    "id": "trees-bst",
+    "topic": "Trees and BST",
+    "subcategory": "Tree traversal and search",
+    "title": "Trees and BST",
+    "arTitle": "Trees و BST",
+    "examImportance": "high",
+    "pages": [
+      {
+        "pdf": "lect5",
+        "page": 79
+      },
+      {
+        "pdf": "lect5",
+        "page": 80
+      },
+      {
+        "pdf": "lect5",
+        "page": 81
+      },
+      {
+        "pdf": "lect5",
+        "page": 82
+      },
+      {
+        "pdf": "lect5",
+        "page": 83
+      },
+      {
+        "pdf": "lect5",
+        "page": 84
+      },
+      {
+        "pdf": "lect5",
+        "page": 85
+      },
+      {
+        "pdf": "lect5",
+        "page": 86
+      },
+      {
+        "pdf": "lect5",
+        "page": 87
+      },
+      {
+        "pdf": "lect5",
+        "page": 88
+      },
+      {
+        "pdf": "lect5",
+        "page": 89
+      },
+      {
+        "pdf": "lect5",
+        "page": 90
+      },
+      {
+        "pdf": "lect5",
+        "page": 91
+      },
+      {
+        "pdf": "lect5",
+        "page": 92
+      },
+      {
+        "pdf": "lect5",
+        "page": 93
+      },
+      {
+        "pdf": "lect5",
+        "page": 94
+      },
+      {
+        "pdf": "lect5",
+        "page": 95
+      },
+      {
+        "pdf": "lect5",
+        "page": 96
+      },
+      {
+        "pdf": "lect5",
+        "page": 97
+      },
+      {
+        "pdf": "lect5",
+        "page": 98
+      },
+      {
+        "pdf": "lect5",
+        "page": 99
+      },
+      {
+        "pdf": "lect5",
+        "page": 100
+      },
+      {
+        "pdf": "lect5",
+        "page": 101
+      },
+      {
+        "pdf": "lect5",
+        "page": 102
+      },
+      {
+        "pdf": "lect5",
+        "page": 103
+      },
+      {
+        "pdf": "lect5",
+        "page": 104
+      },
+      {
+        "pdf": "lect5",
+        "page": 105
+      },
+      {
+        "pdf": "lect5",
+        "page": 106
+      },
+      {
+        "pdf": "lect5",
+        "page": 107
+      },
+      {
+        "pdf": "lect5",
+        "page": 108
+      },
+      {
+        "pdf": "lect5",
+        "page": 109
+      },
+      {
+        "pdf": "lect5",
+        "page": 110
+      },
+      {
+        "pdf": "lect5",
+        "page": 111
+      },
+      {
+        "pdf": "lect5",
+        "page": 112
+      },
+      {
+        "pdf": "lect5",
+        "page": 113
+      },
+      {
+        "pdf": "lect5",
+        "page": 114
+      },
+      {
+        "pdf": "lect5",
+        "page": 115
+      },
+      {
+        "pdf": "lect5",
+        "page": 116
+      },
+      {
+        "pdf": "lect5",
+        "page": 117
+      },
+      {
+        "pdf": "lect5",
+        "page": 118
+      },
+      {
+        "pdf": "lect5",
+        "page": 119
+      },
+      {
+        "pdf": "lect5",
+        "page": 120
+      },
+      {
+        "pdf": "lect5",
+        "page": 121
+      },
+      {
+        "pdf": "lect5",
+        "page": 122
+      },
+      {
+        "pdf": "lect5",
+        "page": 123
+      },
+      {
+        "pdf": "lect5",
+        "page": 124
+      },
+      {
+        "pdf": "lect5",
+        "page": 125
+      },
+      {
+        "pdf": "lect5",
+        "page": 126
+      },
+      {
+        "pdf": "lect5",
+        "page": 127
+      },
+      {
+        "pdf": "lect5",
+        "page": 128
+      },
+      {
+        "pdf": "lect5",
+        "page": 129
+      },
+      {
+        "pdf": "lect5",
+        "page": 130
+      },
+      {
+        "pdf": "lect5",
+        "page": 131
+      },
+      {
+        "pdf": "lect5",
+        "page": 132
+      },
+      {
+        "pdf": "lect5",
+        "page": 133
+      },
+      {
+        "pdf": "lect5",
+        "page": 134
+      },
+      {
+        "pdf": "lect5",
+        "page": 135
+      },
+      {
+        "pdf": "lect5",
+        "page": 136
+      },
+      {
+        "pdf": "lect5",
+        "page": 137
+      },
+      {
+        "pdf": "lect5",
+        "page": 138
+      },
+      {
+        "pdf": "lect5",
+        "page": 139
+      },
+      {
+        "pdf": "lect5",
+        "page": 140
+      },
+      {
+        "pdf": "lect5",
+        "page": 141
+      },
+      {
+        "pdf": "lect5",
+        "page": 142
+      },
+      {
+        "pdf": "lect5",
+        "page": 143
+      },
+      {
+        "pdf": "lect5",
+        "page": 144
+      },
+      {
+        "pdf": "lect5",
+        "page": 145
+      },
+      {
+        "pdf": "lect5",
+        "page": 146
+      },
+      {
+        "pdf": "lect5",
+        "page": 147
+      },
+      {
+        "pdf": "lect5",
+        "page": 148
+      },
+      {
+        "pdf": "lect5",
+        "page": 149
+      },
+      {
+        "pdf": "lect5",
+        "page": 150
+      },
+      {
+        "pdf": "lect5",
+        "page": 151
+      },
+      {
+        "pdf": "lect5",
+        "page": 152
+      },
+      {
+        "pdf": "lect5",
+        "page": 153
+      }
+    ],
+    "explanation": "A BST is a binary tree where left values are smaller and right values are larger. Traversals are recursive and differ only by when the root is processed.",
+    "arabic": "الـ BST شجرة ثنائية يكون اليسار أصغر واليمين أكبر. الـ traversals هي recursive وتختلف فقط بمكان معالجة الجذر.",
+    "traps": [
+      "Inorder traversal of a BST gives sorted output.",
+      "Pre/in/post order depend on root position in the algorithm."
+    ],
+    "code": "void inorder(Node *p) {\n  if (p == nullptr) return;\n  inorder(p->left);\n  cout << p->value;\n  inorder(p->right);\n}",
+    "examQuestion": "Which traversal prints a BST in sorted order?",
+    "quickAnswer": "Inorder traversal.",
+    "deepExplanation": "Inorder visits left subtree, root, then right subtree. In a BST, that means smaller values, then the current value, then larger values.",
+    "overlays": [
+      {
+        "label": "left < root < right",
+        "x": 34,
+        "y": 39,
+        "w": 35,
+        "h": 13
+      }
+    ],
+    "trace": "bst",
+    "visualIds": [
+      "lect5-p079",
+      "lect5-p080",
+      "lect5-p081",
+      "lect5-p082",
+      "lect5-p083",
+      "lect5-p084",
+      "lect5-p085",
+      "lect5-p086",
+      "lect5-p087",
+      "lect5-p088",
+      "lect5-p089",
+      "lect5-p090",
+      "lect5-p091",
+      "lect5-p092",
+      "lect5-p093",
+      "lect5-p094",
+      "lect5-p095",
+      "lect5-p096",
+      "lect5-p097",
+      "lect5-p098",
+      "lect5-p099",
+      "lect5-p100",
+      "lect5-p101",
+      "lect5-p102",
+      "lect5-p103",
+      "lect5-p104",
+      "lect5-p105",
+      "lect5-p106",
+      "lect5-p107",
+      "lect5-p108",
+      "lect5-p109",
+      "lect5-p110",
+      "lect5-p111",
+      "lect5-p112",
+      "lect5-p113",
+      "lect5-p114",
+      "lect5-p115",
+      "lect5-p116",
+      "lect5-p117",
+      "lect5-p118",
+      "lect5-p119",
+      "lect5-p120",
+      "lect5-p121",
+      "lect5-p122",
+      "lect5-p123",
+      "lect5-p124",
+      "lect5-p125",
+      "lect5-p126",
+      "lect5-p127",
+      "lect5-p128",
+      "lect5-p129",
+      "lect5-p130",
+      "lect5-p131",
+      "lect5-p132",
+      "lect5-p133",
+      "lect5-p134",
+      "lect5-p135",
+      "lect5-p136",
+      "lect5-p137",
+      "lect5-p138",
+      "lect5-p139",
+      "lect5-p140",
+      "lect5-p141",
+      "lect5-p142",
+      "lect5-p143",
+      "lect5-p144",
+      "lect5-p145",
+      "lect5-p146",
+      "lect5-p147",
+      "lect5-p148",
+      "lect5-p149",
+      "lect5-p150",
+      "lect5-p151",
+      "lect5-p152",
+      "lect5-p153"
+    ],
+    "sequence": [
+      {
+        "id": "lect5-p079",
+        "title": "Trees and BST: Growth Rate of Various Functions",
+        "page": 79,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p079.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p079.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=79",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=78",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=80",
+        "overlays": [
+          {
+            "label": "left < root < right",
+            "x": 34,
+            "y": 39,
+            "w": 35,
+            "h": 13
+          }
+        ]
+      },
+      {
+        "id": "lect5-p080",
+        "title": "Trees and BST: official lecture visual",
+        "page": 80,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p080.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p080.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=80",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=79",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=81",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p081",
+        "title": "Trees and BST: Algorithm Analysis",
+        "page": 81,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p081.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p081.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=81",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=80",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=82",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p082",
+        "title": "Trees and BST:  The declarations count for no time.",
+        "page": 82,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p082.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p082.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=82",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=81",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=83",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p083",
+        "title": "Trees and BST: What is the complexity of this segment of code?",
+        "page": 83,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p083.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p083.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=83",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=82",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=84",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p084",
+        "title": "Trees and BST: for (i = 0; i < n; i++) ------------------------ n",
+        "page": 84,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p084.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p084.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=84",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=83",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=85",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p085",
+        "title": "Trees and BST: While ( n> 2 )",
+        "page": 85,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p085.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p085.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=85",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=84",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=86",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p086",
+        "title": "Trees and BST: Example 11: Example 12: Example 13: Example 14: 6",
+        "page": 86,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p086.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p086.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=86",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=85",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=87",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p087",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 87,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p087.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p087.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=87",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=86",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=88",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p088",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 88,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p088.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p088.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=88",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=87",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=89",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p089",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 89,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p089.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p089.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=89",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=88",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=90",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p090",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 90,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p090.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p090.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=90",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=89",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=91",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p091",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 91,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p091.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p091.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=91",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=90",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=92",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p092",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 92,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p092.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p092.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=92",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=91",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=93",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p093",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 93,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p093.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p093.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=93",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=92",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=94",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p094",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 94,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p094.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p094.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=94",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=93",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=95",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p095",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 95,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p095.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p095.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=95",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=94",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=96",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p096",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 96,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p096.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p096.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=96",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=95",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=97",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p097",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 97,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p097.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p097.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=97",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=96",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=98",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p098",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 98,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p098.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p098.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=98",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=97",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=99",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p099",
+        "title": "Trees and BST: Data Structures and algorithm Lecture 8",
+        "page": 99,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p099.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p099.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=99",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=98",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=100",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p100",
+        "title": "Trees and BST: Tree Structure",
+        "page": 100,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p100.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p100.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=100",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=99",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=101",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p101",
+        "title": "Trees and BST: The Tree Data Structure",
+        "page": 101,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p101.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p101.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=101",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=100",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=102",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p102",
+        "title": "Trees and BST: The Tree Data Structure",
+        "page": 102,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p102.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p102.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=102",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=101",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=103",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p103",
+        "title": "Trees and BST: . Example: A Perfect (Full) Binary Tree",
+        "page": 103,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p103.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p103.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=103",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=102",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=104",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p104",
+        "title": "Binary search: Binary Tree implementation or representation",
+        "page": 104,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p104.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p104.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=104",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=103",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=105",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p105",
+        "title": "Binary search: Binary Tree implementation or representation",
+        "page": 105,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p105.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p105.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=105",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=104",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=106",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p106",
+        "title": "Binary search: Binary Tree implementation or representation",
+        "page": 106,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p106.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p106.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=106",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=105",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=107",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p107",
+        "title": "Binary search: Binary Tree implementation or representation",
+        "page": 107,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p107.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p107.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=107",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=106",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=108",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p108",
+        "title": "Binary search: Binary Tree implementation or representation",
+        "page": 108,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p108.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p108.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=108",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=107",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=109",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p109",
+        "title": "Trees and BST: Binary Search",
+        "page": 109,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p109.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p109.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=109",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=108",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=110",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p110",
+        "title": "Trees and BST: Binary Search in Action",
+        "page": 110,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p110.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p110.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=110",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=109",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=111",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p111",
+        "title": "Trees and BST: Binary Search in Action",
+        "page": 111,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p111.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p111.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=111",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=110",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=112",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p112",
+        "title": "Trees and BST: Binary Search in Action",
+        "page": 112,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p112.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p112.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=112",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=111",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=113",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p113",
+        "title": "Trees and BST: Binary Search in Action",
+        "page": 113,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p113.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p113.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=113",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=112",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=114",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p114",
+        "title": "Trees and BST: Binary Search in Action",
+        "page": 114,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p114.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p114.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=114",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=113",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=115",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p115",
+        "title": "Trees and BST: Binary Search in Action",
+        "page": 115,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p115.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p115.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=115",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=114",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=116",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p116",
+        "title": "Trees and BST: Binary Search in Action",
+        "page": 116,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p116.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p116.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=116",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=115",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=117",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p117",
+        "title": "Trees and BST: Binary Search in Action",
+        "page": 117,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p117.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p117.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=117",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=116",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=118",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p118",
+        "title": "Trees and BST: Binary Search in Action",
+        "page": 118,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p118.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p118.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=118",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=117",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=119",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p119",
+        "title": "Trees and BST: Binary Search in Action",
+        "page": 119,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p119.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p119.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=119",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=118",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=120",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p120",
+        "title": "Trees and BST: Binary Search in Action",
+        "page": 120,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p120.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p120.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=120",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=119",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=121",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p121",
+        "title": "Trees and BST: Binary Search in Action",
+        "page": 121,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p121.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p121.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=121",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=120",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=122",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p122",
+        "title": "Trees and BST: Binary Search Tree",
+        "page": 122,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p122.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p122.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=122",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=121",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=123",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p123",
+        "title": "Trees and BST: (Binary) TreeNode",
+        "page": 123,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p123.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p123.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=123",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=122",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=124",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p124",
+        "title": "Trees and BST: Binary Search Trees",
+        "page": 124,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p124.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p124.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=124",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=123",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=125",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p125",
+        "title": "Trees and BST: Tree anatomy",
+        "page": 125,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p125.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p125.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=125",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=124",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=126",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p126",
+        "title": "Trees and BST: BST Contains",
+        "page": 126,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p126.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p126.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=126",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=125",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=127",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p127",
+        "title": "Trees and BST: BST Contains",
+        "page": 127,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p127.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p127.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=127",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=126",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=128",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p128",
+        "title": "Trees and BST: Trees and Recursion",
+        "page": 128,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p128.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p128.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=128",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=127",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=129",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p129",
+        "title": "Trees and BST: Trees and Contains",
+        "page": 129,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p129.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p129.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=129",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=128",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=130",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p130",
+        "title": "Trees and BST: Trees and Contains",
+        "page": 130,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p130.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p130.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=130",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=129",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=131",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p131",
+        "title": "Trees and BST: Trees and Contains",
+        "page": 131,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p131.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p131.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=131",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=130",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=132",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p132",
+        "title": "Trees and BST: Trees and Contains",
+        "page": 132,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p132.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p132.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=132",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=131",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=133",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p133",
+        "title": "Trees and BST: void Binary_Search_Tree<T>::insertion(node<T> *&p,T x) //must add & (make it by address)",
+        "page": 133,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p133.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p133.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=133",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=132",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=134",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p134",
+        "title": "Trees and BST: For the following tree insert the value 10",
+        "page": 134,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p134.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p134.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=134",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=133",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=135",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p135",
+        "title": "Trees and BST: For the following tree insert the value 10",
+        "page": 135,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p135.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p135.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=135",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=134",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=136",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p136",
+        "title": "Trees and BST: For the following tree insert the value 10",
+        "page": 136,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p136.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p136.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=136",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=135",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=137",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p137",
+        "title": "Trees and BST: For the following tree insert the value 10",
+        "page": 137,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p137.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p137.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=137",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=136",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=138",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p138",
+        "title": "Trees and BST: For the following tree insert the value 10",
+        "page": 138,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p138.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p138.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=138",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=137",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=139",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p139",
+        "title": "Trees and BST: You have an empty binary tree, insert the following values in",
+        "page": 139,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p139.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p139.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=139",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=138",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=140",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p140",
+        "title": "Trees and BST: Printing Trees",
+        "page": 140,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p140.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p140.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=140",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=139",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=141",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p141",
+        "title": "Trees and BST: Printing Trees",
+        "page": 141,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p141.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p141.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=141",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=140",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=142",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p142",
+        "title": "Trees and BST: Traversal trick",
+        "page": 142,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p142.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p142.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=142",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=141",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=143",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p143",
+        "title": "Trees and BST: Pre-order, In-order and Post-order",
+        "page": 143,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p143.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p143.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=143",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=142",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=144",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p144",
+        "title": "Trees and BST: An Easy Way to Remember the Order of",
+        "page": 144,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p144.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p144.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=144",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=143",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=145",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p145",
+        "title": "Trees and BST: Pre-order Traversal: Dot on the LEFT",
+        "page": 145,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p145.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p145.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=145",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=144",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=146",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p146",
+        "title": "Trees and BST: In-order Traversal: Dot UNDER the node",
+        "page": 146,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p146.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p146.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=146",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=145",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=147",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p147",
+        "title": "Trees and BST: Post-order Traversal: Dot on the RIGHT",
+        "page": 147,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p147.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p147.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=147",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=146",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=148",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p148",
+        "title": "Trees and BST: Traversal exercise",
+        "page": 148,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p148.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p148.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=148",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=147",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=149",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p149",
+        "title": "Trees and BST: Traversal exercise",
+        "page": 149,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p149.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p149.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=149",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=148",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=150",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p150",
+        "title": "Trees and BST: Traversal exercise",
+        "page": 150,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p150.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p150.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=150",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=149",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=151",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p151",
+        "title": "Trees and BST: Binary Tree Traversals",
+        "page": 151,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p151.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p151.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=151",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=150",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=152",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p152",
+        "title": "Trees and BST: Level-order Traversal: Level-by-level",
+        "page": 152,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p152.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p152.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=152",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=151",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=153",
+        "overlays": []
+      },
+      {
+        "id": "lect5-p153",
+        "title": "Trees and BST: 55",
+        "page": 153,
+        "pdf": "Lect 5_to_8_Bookmarked.pdf",
+        "full": "assets/lecture-pages/full/lect5-p153.png",
+        "thumb": "assets/lecture-pages/thumbs/lect5-p153.webp",
+        "pdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=153",
+        "prevPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=152",
+        "nextPdfUrl": "assets/source-pdfs/Lect%205_to_8_Bookmarked.pdf#page=153",
+        "overlays": []
+      }
+    ]
+  }
+]
